@@ -30,7 +30,7 @@ Visualizing Digital Elevation Model (DEM): <br/>
 <br />
 <br />
 Python Commands for creating Slope Cost Surface using DEM:  <br/>
-<img src="https://i.imgur.com/vX6js90.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vX6js90.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <img src="https://i.imgur.com/0bCFc86.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -40,7 +40,7 @@ Visualizing Slope Cost Surface:  <br/>
 <br />
 <br />
 Visualizing Road Cost Surface:  <br/>
-<img src="https://i.imgur.com/H7DUIcM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uDAeo9V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Combining Slope and Road Cost Surfaces to get Total Cost Surface:  <br/>
