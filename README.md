@@ -44,7 +44,7 @@ Visualizing Road Cost Surface (post Python processing):  <br/>
 <br />
 <br />
 Combining Slope and Road Cost Surfaces to get Total Cost Surface:  <br/>
-<img src="https://i.imgur.com/lCYRhS9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lCYRhS9.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Visualizing Total Cost Surface:  <br/>
@@ -52,11 +52,11 @@ Visualizing Total Cost Surface:  <br/>
 <br />
 <br />
 Eliminating Pixels that Exceed the Budget using a Mask:  <br/>
-<img src="https://i.imgur.com/pLLdGjR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pLLdGjR.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Final Cost Surface (Downtown zoomed in on inset map):  <br/>
-<img src="https://i.imgur.com/xFUJIlT.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xFUJIlT.jpeg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
