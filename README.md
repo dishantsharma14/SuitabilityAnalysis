@@ -56,7 +56,7 @@ Eliminating Pixels that Exceed the Budget using a Mask:  <br/>
 <br />
 <br />
 Final Cost Surface (Downtown zoomed in on inset map):  <br/>
-<img src="https://i.imgur.com/xFUJIlT.jpeg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xFUJIlT.jpeg" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
