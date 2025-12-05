@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-Duluth (MN) experienced a population and economic growth between 2020 and 2024 which provides push for new commercial activities and constructions. However, the hilly topography of the city exerts constraints. Creating a pipeline to identify suitable locations within a certain budget was the primary motivation behind this 2-member group project, completed to satisfy the requirements of my Geograghic Information System course in December 2025. We utilized spatial data science techniques to demarcate about 260 square km of area within the city as potentially suitable. 
+Duluth (MN) experienced a population and economic growth between 2010 and 2024 which provides push for new commercial activities and constructions. However, the hilly topography of the city exerts constraints. Creating a pipeline to identify suitable locations within a certain budget was the primary motivation behind this 2-member group project, completed to satisfy the requirements of my Geograghic Information System course in December 2025. We utilized spatial data science techniques (primarily Cost Surfaces) considering two important parameters: Slope and Distance from Roads. We succesfuly delivered the end product- demarcating about 260 square km of area within the city as potentially suitable. 
 <br />
 
 
@@ -15,58 +15,48 @@ Duluth (MN) experienced a population and economic growth between 2020 and 2024 w
 <h2>Project walk-through:</h2>
 
 <p align="center">
-Annonated Study Area Map created in ArcGIS Pro :  <br/>
-<img src="https://i.imgur.com/gTFDG4Q.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
 Data Extraction from Multiple Sources: <br/>
-<img src="https://i.imgur.com/XN7uk4l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7jHplNa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<img src="https://i.imgur.com/rtN5Pf4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Extracting Multidimentional Data (NetCDF) using Xarray:  <br/>
-<img src="https://i.imgur.com/WpAhrgB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TGLpfA2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Data Cleaning in Excel and Pandas: <br/>
-<img src="https://i.imgur.com/AMuuDTK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<img src="https://i.imgur.com/y2XzSar.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Visualizing Road Network across Duluth in ArcGIS Pro (post SQL querying within the platform):  <br/>
+<img src="https://i.imgur.com/sUyinmx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Trend Analysis:  <br/>
-<img src="https://i.imgur.com/jALJify.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<img src="https://i.imgur.com/hVWrwhx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Visualizing Digital Elevation Model (DEM): <br/>
+<img src="https://i.imgur.com/97hAolE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Examining Climate Data Quality:  <br/>
-<img src="https://i.imgur.com/BJrd35W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Python Commands for creating Slope Cost Surface using DEM:  <br/>
+<img src="https://i.imgur.com/vX6js90.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/0bCFc86.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Correlation Matrix of Explanatory Variables and Dependent Variable (Lake Level):  <br/>
+Visualizing Slope Cost Surface:  <br/>
+<img src="https://i.imgur.com/RSZeK2E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Visualizing Road Cost Surface:  <br/>
 <img src="https://i.imgur.com/H7DUIcM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-BoxPlot to Analyze Monthly Variation in Lake Level:  <br/>
-<img src="https://i.imgur.com/pFUgm3w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Combining Slope and Road Cost Surfaces to get Total Cost Surface:  <br/>
+<img src="https://i.imgur.com/lCYRhS9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Using ANOVA to Evaluate Relationship between ENSO Phases (Categorical Variable) with Lake Levels:  <br/>
-<img src="https://i.imgur.com/3i8wqiE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<img src="https://i.imgur.com/WxHPQxo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+Visualizing Total Cost Surface:  <br/>
+<img src="https://i.imgur.com/1mjlahw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Running Multiple Linear Regression:  <br/>
-<img src="https://i.imgur.com/IQ2wNrq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<img src="https://i.imgur.com/29f4wrv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Eliminating Pixels that Exceed the Budget using a Mask:  <br/>
+<img src="https://i.imgur.com/pLLdGjR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Final Model (Post-Calibration and Removal of Insignificant Variables):  <br/>
-<img src="https://i.imgur.com/E4BKhAg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Final Cost Surface (Downtown zoomed in on inset map):  <br/>
+<img src="https://i.imgur.com/xFUJIlT.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 
