@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-Duluth (MN) experienced a population and economic growth between 2010 and 2024 which provides push for new commercial activities and constructions. However, the hilly topography of the city exerts constraints. Creating a pipeline to identify suitable locations within a certain budget was the primary motivation behind this 2-member group project, completed to satisfy the requirements of my Geograghic Information System course in December 2025. We utilized spatial data science techniques (primarily Cost Surfaces) considering two important parameters: Slope and Distance from Roads. We succesfuly delivered the end product- demarcating about 260 square km of area within the city as potentially suitable. 
+Duluth (MN) experienced a population and economic growth between 2010 and 2024 which provides push for new commercial activities and constructions. However, the hilly topography of the city exerts constraints. Creating a pipeline to identify suitable locations within a certain budget was the primary motivation behind this 2-member group project, completed to satisfy the requirements of my Geograghic Information System course in December 2025. We utilized spatial data science techniques (primarily Cost Surfaces) considering two important predictors: Slope and Distance from Roads. We succesfuly delivered the end product- demarcating about 260 square km of area within the city as potentially suitable. 
 <br />
 
 
