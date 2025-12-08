@@ -43,7 +43,7 @@ Visualizing Road Cost Surface (post Python processing):  <br/>
 <img src="https://i.imgur.com/uDAeo9V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Combining Slope and Road Cost Surfaces to get Total Cost Surface:  <br/>
+Building a multi-criteria "Total Cost Surface":  <br/>
 <img src="https://i.imgur.com/lCYRhS9.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
